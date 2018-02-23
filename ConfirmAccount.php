@@ -28,7 +28,11 @@ $wgExtensionCredits['specialpage'][] = [
 	'name' => 'Confirm User Accounts',
 	'namemsg' => 'confirmaccount-extensionname',
 	'descriptionmsg' => 'confirmaccount-desc',
+
+	'author' => 'Aaron Schulz and Jacob G, Arav Narula.',
+
 	'author' => 'Aaron Schulz, Jacob G, and Arav N.',
+
 	'url' => 'https://www.mediawiki.org/wiki/Extension:ConfirmAccount',
 	'license-name' => 'GPL-2.0+'
 ];

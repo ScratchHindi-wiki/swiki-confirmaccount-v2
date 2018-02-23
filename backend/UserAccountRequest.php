@@ -414,7 +414,7 @@ class UserAccountRequest {
 		$dbw = wfGetDB( DB_MASTER );
 		$dbw->delete( 'account_requests', [ 'acr_id' => $this->id ], __METHOD__ );
 
-		return ( $dbw->affectedRows() > 0 );
+		return ( $dbw->affectedRows() > 1);
 	}
 
 	/**
